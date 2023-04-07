@@ -1,0 +1,133 @@
+body {
+    background-color: #dae9f4;
+}
+
+.header {
+    background-color: #7f9eb2;
+    text-align: center;
+    color: white;
+    padding: 15px;
+
+}
+
+footer {
+    background-color: #7f9eb2;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.head {
+    background-color: #7f9eb2;
+    text-align: center;
+    color: white;
+    border-radius: 13px;
+}
+
+.card1 {
+    position: relative;
+    left: 25%;
+    background-color: #274c5e;
+    text-align: center;
+    border-radius: 13px;
+    padding: 7px;
+    color: white;
+    width: 50%;
+}
+
+
+.school {
+    position: relative;
+    left: 5%;
+    text-align: center;
+    background-color: #b3d2e8;
+    color: #6b7e8b;
+    width: 90%;
+    border-radius: 13px;
+}
+
+.school:hover {
+    color: white;
+    background-color: #274c5e;
+    width: 90%;
+}
+
+/*腮�綣����*/
+.skill {
+    position: relative;
+    left: 5%;
+    float: left;
+    text-align: center;
+    background-color: #b3d2e8;
+    color: #6b7e8b;
+    width: 90%;
+}
+
+.skill2 {
+    width: 160px;
+}
+
+.skills {
+    padding-right: 50px;
+    border-right: dotted 2px #274c5e;
+    margin-right: 30px;
+}
+
+article {
+    float: left;
+}
+
+
+
+aside {
+    float: right;
+}
+
+.container {
+    width: 675px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+
+.P {
+    width: 70%;
+    background-color: cadetblue;
+    padding-right: 6px;
+    border-radius: 20px;
+}
+
+.M {
+    width: 75%;
+    background-color: cadetblue;
+    padding-right: 6px;
+    border-radius: 20px;
+    ;
+}
+
+.HR {
+    width: 90%;
+    background-color: cadetblue;
+    padding-right: 6px;
+    border-radius: 20px;
+}
+
+.R {
+    width: 70%;
+    background-color: cadetblue;
+    padding-right: 6px;
+    border-radius: 20px;
+}
+
+.F {
+    width: 85%;
+    background-color: cadetblue;
+    padding-right: 6px;
+    border-radius: 20px;
+
+}
+
+
+.clearfix {
+    clear: both;
+}
