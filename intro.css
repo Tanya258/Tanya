@@ -17,6 +17,17 @@ footer {
     padding: 5px;
 }
 
+#person {
+    position: relative;
+    width: 18%;
+    border-radius: 200px;
+}
+
+.content {
+    float: right;
+    width: 600px;
+}
+
 .head {
     background-color: #7f9eb2;
     text-align: center;
@@ -52,7 +63,7 @@ footer {
     width: 90%;
 }
 
-/*腮�綣����*/
+/*技能*/
 .skill {
     position: relative;
     left: 5%;
@@ -77,12 +88,11 @@ article {
     float: left;
 }
 
-
-
 aside {
     float: right;
 }
 
+/*進度條*/
 .container {
     width: 675px;
     background-color: lightgray;
@@ -92,41 +102,125 @@ aside {
 
 .P {
     width: 70%;
-    background-color: cadetblue;
+    background-color: #b3d2e8;
     padding-right: 6px;
     border-radius: 20px;
 }
 
 .M {
     width: 75%;
-    background-color: cadetblue;
+    background-color: #b3d2e8;
     padding-right: 6px;
     border-radius: 20px;
-    ;
+
 }
 
 .HR {
     width: 90%;
-    background-color: cadetblue;
+    background-color: #b3d2e8;
     padding-right: 6px;
     border-radius: 20px;
 }
 
 .R {
     width: 70%;
-    background-color: cadetblue;
+    background-color: #b3d2e8;
     padding-right: 6px;
     border-radius: 20px;
 }
 
 .F {
     width: 85%;
-    background-color: cadetblue;
+    background-color: #b3d2e8;
     padding-right: 6px;
     border-radius: 20px;
 
 }
 
+
+/*社團*/
+.club {
+    border: 5px double #274c5e;
+    width: 90%;
+    height: 250px;
+    position: relative;
+    left: 5%;
+    border-radius: 30px;
+    background-color: #b3d2e8;
+}
+
+.text {
+    font-size: 20px;
+
+    text-align: center;
+}
+
+.text2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.guitar {
+    width: 24%;
+    float: left;
+
+}
+
+.guitar:hover {
+    width: 27%;
+}
+
+#guitar1 {
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+.art {
+    width: 24%;
+    float: left;
+}
+
+.art:hover {
+    width: 27%;
+}
+
+#art1 {
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+.photo {
+    width: 24%;
+    float: left;
+}
+
+.photo:hover {
+    width: 27%;
+}
+
+#photo1 {
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 30%;
+}
+
+
+.dorm {
+    width: 24%;
+    float: left;
+}
+
+.dorm:hover {
+    width: 27%;
+}
+
+#dorm1 {
+    width: 40%;
+    border-radius: 20px;
+    margin-left: 30%;
+}
 
 .clearfix {
     clear: both;
