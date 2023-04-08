@@ -14,7 +14,7 @@ footer {
     background-color: #7f9eb2;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 3px;
 }
 
 #person {
@@ -26,6 +26,11 @@ footer {
 .content {
     float: right;
     width: 600px;
+}
+
+.ig {
+    width: 8%;
+    border-radius: 20px;
 }
 
 .head {
@@ -140,7 +145,7 @@ aside {
 
 /*社團*/
 .club {
-    border: 5px double #274c5e;
+    border: 8px double #274c5e;
     width: 90%;
     height: 250px;
     position: relative;
@@ -150,13 +155,13 @@ aside {
 }
 
 .text {
-    font-size: 20px;
-
+    font-size: 25px;
+    font-weight: 200;
     text-align: center;
 }
 
 .text2 {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -172,7 +177,6 @@ aside {
 
 #guitar1 {
     width: 40%;
-    border-radius: 20px;
     margin-left: 30%;
 }
 
@@ -187,7 +191,6 @@ aside {
 
 #art1 {
     width: 40%;
-    border-radius: 20px;
     margin-left: 30%;
 }
 
@@ -202,7 +205,6 @@ aside {
 
 #photo1 {
     width: 40%;
-    border-radius: 20px;
     margin-left: 30%;
 }
 
@@ -218,8 +220,43 @@ aside {
 
 #dorm1 {
     width: 40%;
-    border-radius: 20px;
     margin-left: 30%;
+}
+
+/*工作*/
+.jeans {
+    float: left;
+}
+
+#jeans1 {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.pt {
+    float: right;
+}
+
+#pt1 {
+    width: 40%;
+    margin-left: 30%;
+}
+
+/*專案*/
+.project {
+    float: left;
+    width: 55%;
+}
+
+.project2 {
+    color: #274c5e;
+    font-family: 標楷體字型;
+}
+
+#project1 {
+    width: 40%;
+    float: right;
+    border-radius: 30px;
 }
 
 .clearfix {
